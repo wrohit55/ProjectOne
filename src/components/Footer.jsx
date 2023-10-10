@@ -9,9 +9,9 @@ const Footer = () => {
         <div>
             <h5>Follow us</h5>
             <div>
-                <a href="" target={"blank"}>Facebook</a>
-                <a href="" target={"blank"}>Instagram</a>
-                <a href="" target={"blank"}>Github</a>
+                <a href="facebook.com" target={"blank"}>Facebook</a>
+                <a href="instagram,com" target={"blank"}>Instagram</a>
+                <a href="github.com" target={"blank"}>Github</a>
             </div>
         </div>
     </footer>

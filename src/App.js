@@ -15,6 +15,8 @@ import "./styles/Home.scss";
 import "./styles/Contact.scss";
 import "./styles/Services.scss";
 import "./styles/Footer.scss";
+import "./styles/mediaquerry.scss";
+
 
 
 
