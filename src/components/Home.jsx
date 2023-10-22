@@ -1,17 +1,29 @@
 import React from 'react';
 import vg from "../assest/2.webp";
 import { AiFillGoogleCircle, AiFillAmazonCircle, AiFillInstagram, AiFillYoutube } from "react-icons/ai"
+import Lottie from 'lottie-react';
+// import animationData from '../assest/animation_lnkitn8g.json';
+import webanimation from '../assest/websiteanimation.json';
+
+
 
 const Home = () => {
+
+
     return (
         <>
             <div className="home" id="home">
+
                 <main>
 
                     <h1>YouthIT</h1>
                     <p>Tech for Future</p>
 
                 </main>
+                <div className="animation">
+                    <Lottie animationData={webanimation} />
+
+                </div>
             </div>
             <div className="home2">
                 <img src={vg} alt="Grapgics" />
@@ -68,6 +80,9 @@ const Home = () => {
                     </article>
                 </div>
             </div>
+
+            //
+
         </>
     )
 }

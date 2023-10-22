@@ -7,6 +7,15 @@
     border-radius: 0 0 200px 200px;
     margin-top: -80px;
 
+    >div {
+        height: 40%;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        padding-top: 100px;
+    }
+
     >main {
         position: absolute;
         text-transform: uppercase;
@@ -17,6 +26,7 @@
         width: 100%;
         height: 100%;
         padding: 2rem;
+        padding-top: -100px;
 
         h1 {
             font: 400 6rem $text2;
@@ -30,15 +40,15 @@
         }
     }
 
-    &::before {
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background: no-repeat center/auto url("../assest/1.png");
-        filter: blur(5px);
-        border-radius: 0 0 200px 200px;
-    }
+    // &::before {
+    //     content: "";
+    //     width: 100%;
+    //     height: 100%;
+    //     position: absolute;
+    //     //  background: no-repeat center/auto url("../assest/1.png");
+    //     filter: blur(5px);
+    //     border-radius: 0 0 200px 200px;
+    // }
 }
 
 .home2 {

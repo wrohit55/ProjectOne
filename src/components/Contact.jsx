@@ -1,7 +1,11 @@
 import React from 'react'
+import Lottie from 'lottie-react';
+import animationData from '../assest/animation_lnkitn8g.json';
 
 const Contact = () => {
     return (<div className="contact">
+        <Lottie animationData={animationData} />
+
         <main>
             <h1>Contact Us</h1>
             <form>
