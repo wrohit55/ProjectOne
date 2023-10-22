@@ -15,7 +15,7 @@ const Head = () => {
                 <HashLink to={"/#about"}>About</HashLink>
                 <HashLink to={"/#clients"}>Clients</HashLink>
                 <Link to={"/services"}>Services</Link>
-                <Link to={"/sess"}>Session</Link>
+                <Link to={"/sess"}>Sess</Link>
 
 
 
